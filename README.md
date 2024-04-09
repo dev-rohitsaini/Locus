@@ -12,14 +12,14 @@ Asserts that the size of the list of books ("docs") in the response is 3.
 Asserts that the IDs of books in the response are not duplicated.
 
 
-testNegativeCaseForGettingMovies:
+2. testNegativeCaseForGettingMovies:
 
 Asserts that the content type of the response is "application/json; charset=utf-8".
 Asserts that the status code of the response is 401.
 Asserts that the message in the response body is "Unauthorized.".
 
 
-testPositiveCaseForGettingMovies:
+3. testPositiveCaseForGettingMovies:
 
 Asserts that the content type of the response is "application/json; charset=utf-8".
 Asserts that the status code of the response is 200.
@@ -27,7 +27,7 @@ Asserts that the size of the list of movies ("docs") in the response is greater 
 Asserts that the type of movie ID ("docs[0]._id") is String.
 
 
-testTwoStepCaseGetMovieQuote:
+4. testTwoStepCaseGetMovieQuote:
 
 Asserts that the status code of the movies response is 200.
 Asserts that the movie ID obtained from the response is not null.
