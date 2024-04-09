@@ -2,7 +2,7 @@ Test Script Folder Path
 
 src->test->java->PicRightApiAssignment.java
 
-Here are the assertions have been implemented the code:
+Here are the assertions have been implemented in the code:
 
 testGetBooksData:
 
