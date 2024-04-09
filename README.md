@@ -5,10 +5,11 @@ src->test->java->PicRightApiAssignment.java
 Here are the assertions have been implemented in the code:
 
 1. testGetBooksData:
-        1. Asserts that the content type of the response is "application/json; charset=utf-8".
-        2. Asserts that the status code of the response is 200.
-        3. Asserts that the size of the list of books ("docs") in the response is 3.
-        4. Asserts that the IDs of books in the response are not duplicated.
+   
+Asserts that the content type of the response is "application/json; charset=utf-8".
+Asserts that the status code of the response is 200.
+Asserts that the size of the list of books ("docs") in the response is 3.
+Asserts that the IDs of books in the response are not duplicated.
 
 
 testNegativeCaseForGettingMovies:
